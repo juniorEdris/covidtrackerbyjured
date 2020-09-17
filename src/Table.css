@@ -1,0 +1,23 @@
+.table{
+    margin-top: 20px;
+    height:400px;
+    overflow-y: scroll;
+    color: #6a5d5d;
+    background: #fff;
+    border-top: 2px solid #999999;
+    scrollbar-width: 0; /*firefox*/  
+    -ms-overflow-style: none;  /* IE and Edge */ 
+}
+.table::-webkit-scrollbar {
+    width: 0px; /*chrome*/
+}
+.table tr:nth-of-type(odd){
+    background: #f3f3f8;
+}
+.table tr{
+    display:flex;
+    justify-content: space-between;
+}
+.table td{
+    padding: 0.5rem;
+}
